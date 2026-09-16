@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "System Admin",
+      "email": "admin@udevs.com",
+      "role": "Admin",
+      "status": "Active",
+      "createdAt": "2026-08-01T09:00:00Z"
+    },
+    {
+      "id": "USR-002",
+      "name": "Sales Manager",
+      "email": "sales@udevs.com",
+      "role": "Sales Manager",
+      "status": "Active",
+      "createdAt": "2026-08-02T09:00:00Z"
+    },
+    {
+      "id": "USR-003",
+      "name": "Inventory Manager",
+      "email": "inventory@udevs.com",
+      "role": "Inventory Manager",
+      "status": "Active",
+      "createdAt": "2026-08-03T09:00:00Z"
+    },
+    {
+      "id": "USR-004",
+      "name": "Demo Customer",
+      "email": "customer@udevs.com",
+      "role": "Customer",
+      "status": "Active",
+      "createdAt": "2026-08-04T09:00:00Z"
+    }
+  ]
+}

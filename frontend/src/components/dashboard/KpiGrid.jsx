@@ -1,0 +1,1 @@
+import {Grid} from '@mui/material';export default function KpiGrid({items}){return <Grid container spacing={2}>{items.map(({id,node})=><Grid item xs={12} sm={6} md={3} key={id}>{node}</Grid>)}</Grid>}

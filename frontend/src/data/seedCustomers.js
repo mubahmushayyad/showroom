@@ -1,0 +1,1 @@
+export const seedCustomers=[{id:'CUS-001',userId:'USR-004',name:'Demo Customer',email:'customer@udevs.com',phone:'03001234567',cnic:'35202-1234567-1',address:'Lahore, Pakistan',city:'Lahore',createdAt:'2026-08-01T09:00:00Z'}];

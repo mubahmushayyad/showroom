@@ -1,0 +1,1 @@
+import {csvDownload} from '../utils/formatters';export const exportCarsToCsv=cars=>csvDownload(cars.map(c=>({id:c.id,make:c.make,model:c.model,year:c.year,purchaseRate:c.purchaseRate,sellingPrice:c.sellingPrice,profit:c.sellingPrice-c.purchaseRate,margin:c.sellingPrice?((c.sellingPrice-c.purchaseRate)/c.sellingPrice*100).toFixed(2):0,stock:c.stock,status:c.status})),'cars.csv');
